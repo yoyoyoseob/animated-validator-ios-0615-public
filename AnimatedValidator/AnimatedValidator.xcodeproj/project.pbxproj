@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CD1C0619215BE700140BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0519215BE700140BD0 /* Foundation.framework */; };
+		44CD1C0819215BE700140BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0719215BE700140BD0 /* CoreGraphics.framework */; };
+		44CD1C0A19215BE700140BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0919215BE700140BD0 /* UIKit.framework */; };
+		44CD1C1019215BE800140BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CD1C0E19215BE800140BD0 /* InfoPlist.strings */; };
+		44CD1C1219215BE800140BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1C1119215BE800140BD0 /* main.m */; };
+		44CD1C1619215BE800140BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1C1519215BE800140BD0 /* AppDelegate.m */; };
+		44CD1C1919215BE800140BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CD1C1719215BE800140BD0 /* Main.storyboard */; };
+		44CD1C1E19215BE800140BD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CD1C1D19215BE800140BD0 /* Images.xcassets */; };
+		44CD1C2519215BE800140BD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C2419215BE800140BD0 /* XCTest.framework */; };
+		44CD1C2619215BE800140BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0519215BE700140BD0 /* Foundation.framework */; };
+		44CD1C2719215BE800140BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0919215BE700140BD0 /* UIKit.framework */; };
+		44CD1C2F19215BE800140BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CD1C2D19215BE800140BD0 /* InfoPlist.strings */; };
+		44CD1C3119215BE800140BD0 /* AnimatedValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1C3019215BE800140BD0 /* AnimatedValidatorTests.m */; };
+		44CD1C3C19215D0A00140BD0 /* ValidatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1C3B19215D0A00140BD0 /* ValidatorViewController.m */; };
+		44CD1C3F19215E3B00140BD0 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1C3E19215E3B00140BD0 /* Constants.m */; };
+		800DD5E15C974404ABADB2FA /* libPods-AnimatedValidatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6296CDC2AD0A4B6CB401192C /* libPods-AnimatedValidatorTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CD1C2819215BE800140BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CD1BFA19215BE700140BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CD1C0119215BE700140BD0;
+			remoteInfo = AnimatedValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CD1C0219215BE700140BD0 /* AnimatedValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CD1C0519215BE700140BD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44CD1C0719215BE700140BD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44CD1C0919215BE700140BD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44CD1C0D19215BE800140BD0 /* AnimatedValidator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedValidator-Info.plist"; sourceTree = "<group>"; };
+		44CD1C0F19215BE800140BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CD1C1119215BE800140BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44CD1C1319215BE800140BD0 /* AnimatedValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimatedValidator-Prefix.pch"; sourceTree = "<group>"; };
+		44CD1C1419215BE800140BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44CD1C1519215BE800140BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44CD1C1819215BE800140BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44CD1C1D19215BE800140BD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44CD1C2319215BE800140BD0 /* AnimatedValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CD1C2419215BE800140BD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44CD1C2C19215BE800140BD0 /* AnimatedValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedValidatorTests-Info.plist"; sourceTree = "<group>"; };
+		44CD1C2E19215BE800140BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CD1C3019215BE800140BD0 /* AnimatedValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedValidatorTests.m; sourceTree = "<group>"; };
+		44CD1C3A19215D0A00140BD0 /* ValidatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidatorViewController.h; sourceTree = "<group>"; };
+		44CD1C3B19215D0A00140BD0 /* ValidatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidatorViewController.m; sourceTree = "<group>"; };
+		44CD1C3D19215E3B00140BD0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		44CD1C3E19215E3B00140BD0 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		6296CDC2AD0A4B6CB401192C /* libPods-AnimatedValidatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimatedValidatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedValidatorTests.xcconfig"; path = "Pods/Pods-AnimatedValidatorTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CD1BFF19215BE700140BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CD1C0819215BE700140BD0 /* CoreGraphics.framework in Frameworks */,
+				44CD1C0A19215BE700140BD0 /* UIKit.framework in Frameworks */,
+				44CD1C0619215BE700140BD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CD1C2019215BE800140BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CD1C2519215BE800140BD0 /* XCTest.framework in Frameworks */,
+				44CD1C2719215BE800140BD0 /* UIKit.framework in Frameworks */,
+				44CD1C2619215BE800140BD0 /* Foundation.framework in Frameworks */,
+				800DD5E15C974404ABADB2FA /* libPods-AnimatedValidatorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CD1BF919215BE700140BD0 = {
+			isa = PBXGroup;
+			children = (
+				44CD1C0B19215BE800140BD0 /* AnimatedValidator */,
+				44CD1C2A19215BE800140BD0 /* AnimatedValidatorTests */,
+				44CD1C0419215BE700140BD0 /* Frameworks */,
+				44CD1C0319215BE700140BD0 /* Products */,
+				DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		44CD1C0319215BE700140BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C0219215BE700140BD0 /* AnimatedValidator.app */,
+				44CD1C2319215BE800140BD0 /* AnimatedValidatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CD1C0419215BE700140BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C0519215BE700140BD0 /* Foundation.framework */,
+				44CD1C0719215BE700140BD0 /* CoreGraphics.framework */,
+				44CD1C0919215BE700140BD0 /* UIKit.framework */,
+				44CD1C2419215BE800140BD0 /* XCTest.framework */,
+				6296CDC2AD0A4B6CB401192C /* libPods-AnimatedValidatorTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CD1C0B19215BE800140BD0 /* AnimatedValidator */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C3A19215D0A00140BD0 /* ValidatorViewController.h */,
+				44CD1C3B19215D0A00140BD0 /* ValidatorViewController.m */,
+				44CD1C1419215BE800140BD0 /* AppDelegate.h */,
+				44CD1C1519215BE800140BD0 /* AppDelegate.m */,
+				44CD1C1719215BE800140BD0 /* Main.storyboard */,
+				44CD1C1D19215BE800140BD0 /* Images.xcassets */,
+				44CD1C0C19215BE800140BD0 /* Supporting Files */,
+				44CD1C3D19215E3B00140BD0 /* Constants.h */,
+				44CD1C3E19215E3B00140BD0 /* Constants.m */,
+			);
+			path = AnimatedValidator;
+			sourceTree = "<group>";
+		};
+		44CD1C0C19215BE800140BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C0D19215BE800140BD0 /* AnimatedValidator-Info.plist */,
+				44CD1C0E19215BE800140BD0 /* InfoPlist.strings */,
+				44CD1C1119215BE800140BD0 /* main.m */,
+				44CD1C1319215BE800140BD0 /* AnimatedValidator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44CD1C2A19215BE800140BD0 /* AnimatedValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C3019215BE800140BD0 /* AnimatedValidatorTests.m */,
+				44CD1C2B19215BE800140BD0 /* Supporting Files */,
+			);
+			path = AnimatedValidatorTests;
+			sourceTree = "<group>";
+		};
+		44CD1C2B19215BE800140BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C2C19215BE800140BD0 /* AnimatedValidatorTests-Info.plist */,
+				44CD1C2D19215BE800140BD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CD1C0119215BE700140BD0 /* AnimatedValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CD1C3419215BE800140BD0 /* Build configuration list for PBXNativeTarget "AnimatedValidator" */;
+			buildPhases = (
+				44CD1BFE19215BE700140BD0 /* Sources */,
+				44CD1BFF19215BE700140BD0 /* Frameworks */,
+				44CD1C0019215BE700140BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedValidator;
+			productName = AnimatedValidator;
+			productReference = 44CD1C0219215BE700140BD0 /* AnimatedValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CD1C2219215BE800140BD0 /* AnimatedValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CD1C3719215BE800140BD0 /* Build configuration list for PBXNativeTarget "AnimatedValidatorTests" */;
+			buildPhases = (
+				784813CF21414E43B9F660BE /* Check Pods Manifest.lock */,
+				44CD1C1F19215BE800140BD0 /* Sources */,
+				44CD1C2019215BE800140BD0 /* Frameworks */,
+				44CD1C2119215BE800140BD0 /* Resources */,
+				DDAC50CAE6A94FDA875C7EE7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CD1C2919215BE800140BD0 /* PBXTargetDependency */,
+			);
+			name = AnimatedValidatorTests;
+			productName = AnimatedValidatorTests;
+			productReference = 44CD1C2319215BE800140BD0 /* AnimatedValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CD1BFA19215BE700140BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "al-tyus.com";
+				TargetAttributes = {
+					44CD1C2219215BE800140BD0 = {
+						TestTargetID = 44CD1C0119215BE700140BD0;
+					};
+				};
+			};
+			buildConfigurationList = 44CD1BFD19215BE700140BD0 /* Build configuration list for PBXProject "AnimatedValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CD1BF919215BE700140BD0;
+			productRefGroup = 44CD1C0319215BE700140BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CD1C0119215BE700140BD0 /* AnimatedValidator */,
+				44CD1C2219215BE800140BD0 /* AnimatedValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CD1C0019215BE700140BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CD1C1E19215BE800140BD0 /* Images.xcassets in Resources */,
+				44CD1C1019215BE800140BD0 /* InfoPlist.strings in Resources */,
+				44CD1C1919215BE800140BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CD1C2119215BE800140BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CD1C2F19215BE800140BD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		784813CF21414E43B9F660BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAC50CAE6A94FDA875C7EE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-AnimatedValidatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CD1BFE19215BE700140BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CD1C1619215BE800140BD0 /* AppDelegate.m in Sources */,
+				44CD1C3C19215D0A00140BD0 /* ValidatorViewController.m in Sources */,
+				44CD1C1219215BE800140BD0 /* main.m in Sources */,
+				44CD1C3F19215E3B00140BD0 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CD1C1F19215BE800140BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CD1C3119215BE800140BD0 /* AnimatedValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CD1C2919215BE800140BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CD1C0119215BE700140BD0 /* AnimatedValidator */;
+			targetProxy = 44CD1C2819215BE800140BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44CD1C0E19215BE800140BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CD1C0F19215BE800140BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44CD1C1719215BE800140BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CD1C1819215BE800140BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44CD1C2D19215BE800140BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CD1C2E19215BE800140BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CD1C3219215BE800140BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44CD1C3319215BE800140BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CD1C3519215BE800140BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedValidator/AnimatedValidator-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedValidator/AnimatedValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44CD1C3619215BE800140BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedValidator/AnimatedValidator-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedValidator/AnimatedValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44CD1C3819215BE800140BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedValidator.app/AnimatedValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedValidator/AnimatedValidator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnimatedValidatorTests/AnimatedValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44CD1C3919215BE800140BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedValidator.app/AnimatedValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedValidator/AnimatedValidator-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedValidatorTests/AnimatedValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CD1BFD19215BE700140BD0 /* Build configuration list for PBXProject "AnimatedValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CD1C3219215BE800140BD0 /* Debug */,
+				44CD1C3319215BE800140BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CD1C3419215BE800140BD0 /* Build configuration list for PBXNativeTarget "AnimatedValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CD1C3519215BE800140BD0 /* Debug */,
+				44CD1C3619215BE800140BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CD1C3719215BE800140BD0 /* Build configuration list for PBXNativeTarget "AnimatedValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CD1C3819215BE800140BD0 /* Debug */,
+				44CD1C3919215BE800140BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CD1BFA19215BE700140BD0 /* Project object */;
+}
