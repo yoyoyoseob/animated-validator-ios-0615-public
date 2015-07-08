@@ -122,11 +122,9 @@
 		44CD1C0B19215BE800140BD0 /* AnimatedValidator */ = {
 			isa = PBXGroup;
 			children = (
-				44CD1C3A19215D0A00140BD0 /* ValidatorViewController.h */,
-				44CD1C3B19215D0A00140BD0 /* ValidatorViewController.m */,
-				44CD1C1419215BE800140BD0 /* AppDelegate.h */,
-				44CD1C1519215BE800140BD0 /* AppDelegate.m */,
-				44CD1C1719215BE800140BD0 /* Main.storyboard */,
+				71BC33351B4BFD530053BA9F /* Views */,
+				71BC33341B4BFD4B0053BA9F /* Models */,
+				71BC33331B4BFD430053BA9F /* Controllers */,
 				44CD1C1D19215BE800140BD0 /* Images.xcassets */,
 				44CD1C0C19215BE800140BD0 /* Supporting Files */,
 				44CD1C3D19215E3B00140BD0 /* Constants.h */,
@@ -171,6 +169,32 @@
 				7819628E572B6A875CCF9CF5 /* Pods-AnimatedValidatorTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		71BC33331B4BFD430053BA9F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C3A19215D0A00140BD0 /* ValidatorViewController.h */,
+				44CD1C3B19215D0A00140BD0 /* ValidatorViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		71BC33341B4BFD4B0053BA9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C1419215BE800140BD0 /* AppDelegate.h */,
+				44CD1C1519215BE800140BD0 /* AppDelegate.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		71BC33351B4BFD530053BA9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44CD1C1719215BE800140BD0 /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
